@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/weight_item_wallpaper"
+    android:layout_height="@dimen/height_item_wallpaper">
+
+    <ImageView
+        android:id="@+id/item_wallpaper_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

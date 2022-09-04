@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_list_wallpaper_fragment">150dp</dimen>
+    <dimen name="height_button_change_wallpaper">80dp</dimen>
+    <dimen name="height_item_wallpaper">150dp</dimen>
+    <dimen name="weight_item_wallpaper">100dp</dimen>
+
+    <dimen name="corner_radius_button">14dp</dimen>
+    <dimen name="margin_horizontal_button">5dp</dimen>
+    <dimen name="margin_top_button">5dp</dimen>
+</resources>

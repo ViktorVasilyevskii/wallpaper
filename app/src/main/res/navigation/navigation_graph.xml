@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.komukc.wallpaper.view.screens.ListWallpaperFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_updateWallpaperFragment"
+            app:destination="@id/updateWallpaperFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateWallpaperFragment"
+        android:name="com.komukc.wallpaper.view.screens.ExampleWallpaperFragment"
+        android:label="UpdateWallpaperFragment" >
+        <action
+            android:id="@+id/action_updateWallpaperFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
